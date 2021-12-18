@@ -1,0 +1,48 @@
+<!--miniprogram/pages/show-hansheng/show-hansheng.wxml-->
+<image class = "showPhoto" mode = "widthFix" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show - Photo/HanShengYouWei.jpeg"/>
+
+<view class = "bgBlock" style="position: absolute; left: 158rpx; top: 516rpx">
+  <text class = "titleText" style="position: absolute; left: -90rpx; top: -128rpx">
+    版块介绍
+  </text>
+  <image class = "JuLi" mode = "widthFix" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-HanSheng - Photo/JuLi.jpeg" style="position: absolute; left: -122rpx; top: 124rpx"></image>
+  <text class = "JuLiTitle" style="position: absolute; left: 172rpx; top: 10rpx">
+    「距离」—— 家庭板块
+  </text>
+  <text class = "JuLiText" style="position: absolute; left: 191rpx; top: 76rpx">
+    距离，对你来说，意味着什么？对分别的人们，距离意味分别之苦，思念之切；对疫情而言，距离意味着保护，也暗含着明日的期待。一些人说，距离让他们受困于孤独；而蜗居一隅的人们，却深爱它所带来的逃离与庇护。亲近带给你的是捆绑还是圆满，远离对你而言是疏离还是馈赠？
+  </text>
+  <image class = "AnWen" mode = "widthFix" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-HanSheng - Photo/AnWen.jpeg" style="position: absolute; left: -122rpx; top: 698rpx"></image>
+  <text class = "AnWenTitle" style="position: absolute; left: 172rpx; top: 582rpx">
+    「安紊」—— 社会板块
+  </text>
+  <text class = "AnWenText" style="position: absolute; left: 191rpx; top: 652rpx">
+    已经很久未曾听到「现世安稳」的消息了，躁动、无序、动荡。疫情带来了无可避免的紧张紊乱。但请相信，无论你身在何处，我们都会与你同在。将留下的片影编撰成集或将无声的画渲染上色彩，为历史留下一份宝贵的底稿，静候明日的安宁。我们追求万众一心的安稳，却无法阻止不同程度的紊乱。
+  </text>
+  <image class = "ZhongGui" mode = "widthFix" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-HanSheng - Photo/ZhongGui.jpeg" style="position: absolute; left: -122rpx; top: 1316rpx"></image>
+  <text class = "ZhongGuiTitle" style="position: absolute; left: 172rpx; top: 1200rpx">
+    「衷归」—— 环境板块
+  </text>
+  <text class = "ZhongGuiText" style="position: absolute; left: 191rpx; top: 1272rpx">
+    每个生命都需要一个家，都需要透过乌云的缝隙看看斑驳的阳光。就算曾经乌云密布、黑白颠倒，最后也一定会回归到淳朴的超然。命运会夺去欢声笑语和宁静安详，但却无法阻止我们再次回到最初的日子。我们都无比地坚信着，再漫长的“无期”都无法阻止自然与人怡然共处时刻的悄然而至。
+  </text>
+</view>
+
+<swiper class = "activityAlbum" style="display: block; box-sizing: border-box; left: 75rpx; top: 2480rpx; position: absolute" indicator-dots="true">
+  <swiper-item>
+    <image src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-HanSheng - Photo/commentary.jpg" mode = "widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-HanSheng - Photo/orchestra.jpg" mode = "widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-HanSheng - Photo/choir.jpg" mode = "widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-HanSheng - Photo/artwork.jpg" mode = "widthFix"></image>
+  </swiper-item>
+</swiper>
+
+<text class = "albumTitle" style="position: absolute; left: 70rpx; top: 2278rpx">
+  往期活动照片
+</text>

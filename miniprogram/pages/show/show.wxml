@@ -1,0 +1,43 @@
+<view class="topBox" style="width: 536rpx; height: 640rpx; display: block; box-sizing: border-box; left: 104rpx; top: 120rpx">
+
+  <view class = "topDeco"></view>
+
+  <image style = "opacity: 90%" mode="widthFix" class = "topPhoto" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show - Photo/HanShengYouWei.jpeg"/>
+
+  <text class="topText">
+    「含生有味」
+  </text>
+
+
+  <text class = "topBody" style="position: absolute; left: 38rpx; top: 128rpx">
+    万物于天地之间如⼀草⼀芥，众⽣在百态⼈间为命运⼀体。天地含万物，万物含众⽣。每个个体都在与家庭，社会，环境的互相作⽤下不断追寻着平衡。如今，疫情的出现，将万物的本质放⼤；将世间冷暖，事件是非明细。对此，我们将进⾏怎样⼀番对事物的审视与玩味？
+  </text>
+
+  <button class = "topMore" style = "width: 100rpx" bindtap="jumptoHanSheng"></button>
+
+  <view class = "topArrow"></view>
+</view>
+
+
+
+<view class="bottomBox" style="position: absolute; left: 104rpx; top: 1078rpx; width: 540rpx; height: 806rpx; display: block; box-sizing: border-box">
+
+  <view class="bottomDeco">
+  </view>
+
+  <text class = "bottomText">
+    「日新龠艺」
+  </text>
+
+  <text class = "bottomBody">
+    「日新龠艺」文化节为龠力公司与艺设圈公司共同创办的长期活动，致力于实现“艺术无门槛”，每一个来到深圳的人都将体验艺术。每一年，我们都会与一位艺术大师合作，举办艺术展。为大家带来一场难忘的视觉盛宴。深圳，是一座年轻的移民城市，因此，这里的艺术应当是所有人都能够参与进来的公共艺术，是共同的思考与感悟。
+  </text>
+
+  <image class = "bottomPhoto" mode="widthFix" style = "opacity: 95%" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/mainPoster.jpg"/>
+
+  <button class = "register" style="width: 266rpx; position: relative; left: 16rpx; top: 863rpx" bindtap="jumptoReserve">预约看展</button>
+
+  <button class = "bottomMore" style = "width: 100rpx" bindtap="jumptoRiXin"></button>
+
+  <view class = "bottomArrow"></view>
+</view>

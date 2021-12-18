@@ -1,0 +1,130 @@
+/* miniprogram/pages/show-rixin/show-rixin.wxss */
+
+page {
+  height: 2800rpx;
+}
+
+.topImgBg {
+  position: absolute;
+  width: 600rpx;
+  height: 200rpx;
+  background-color: rgb(230,230,230);
+}
+
+.miroIntroTitle {
+  position: absolute;
+  font-size: 48rpx;
+  font-weight: 400;
+  width: 140rpx;
+}
+
+.topPoster {
+  position: absolute;
+  width: 420rpx;
+}
+
+.miroIntroBg {
+  position: absolute;
+  width: 600rpx;
+  height: 370rpx;
+  background-color: rgb(230,230,230);
+}
+
+.miroIntroText {
+  position: absolute;
+  width: 540rpx;
+  font-size: 28rpx;
+}
+
+.wulunBg {
+  position: absolute;
+  background-color: rgb(230,230,230);
+  width: 600rpx;
+  height: 490rpx;
+}
+
+.wulunPoster {
+  position: absolute;
+  width: 220rpx;
+  height: 310rpx;
+}
+
+.wulunTitle {
+  position: absolute;
+  width: 440rpx;
+  font-size: 48rpx;
+  font-weight: 400
+}
+
+.wulunText {
+  position: absolute;
+  width: 270rpx;
+  font-size: 28rpx;
+}
+
+.moduleBg {
+  position: absolute;
+  width: 320rpx;
+  height: 1286rpx;
+  background-color: rgb(230,230,230);
+}
+
+.moduleTitle {
+  position: absolute;
+  font-size: 48rpx;
+  font-weight: 400;
+}
+
+.kaiNaTitle {
+  position: absolute;
+  font-weight: 450;
+  color: rgb(110, 160, 235)
+}
+
+.kaiNaText {
+  position: absolute;
+  font-size: 28rpx;
+  width: 280rpx;
+}
+
+.ziShenTitle {
+  position: absolute;
+  font-weight: 450;
+  color: rgb(60, 60, 155)
+}
+
+.ziShenText {
+  position: absolute;
+  font-size: 28rpx;
+  width: 280rpx;
+}
+
+.liuDongTitle {
+  position: absolute;
+  font-weight: 450;
+  color: rgb(100, 60, 130);
+}
+
+.liuDongText {
+  position: absolute;
+  font-size: 28rpx;
+  width: 280rpx;
+}
+
+.kaiNa {
+  position: absolute;
+  width: 240rpx;
+  height: 300rpx;
+}
+
+.ziShen {
+  position: absolute;
+  width: 240rpx;
+  height: 300rpx;
+}
+
+.liuDong {
+  position: absolute;
+  width: 240rpx;
+  height: 300rpx;
+}

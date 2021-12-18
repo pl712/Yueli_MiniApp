@@ -1,0 +1,45 @@
+<view class="about">
+
+  <view class="top">
+    <view class="left">
+      <view class="topLeft"></view>
+      <text class="name">关 于 龠 力</text>
+    </view>
+    <view class="right">
+      <view class="logoBox">
+        <image class="logo" mode="widthFix" src="icon/logo.jpeg"></image>
+      </view>
+      <text class="text2" style="position: relative; left: 2rpx; top: -20rpx">「龠力CORIOLIS」 是一个由世界各地学生组成的社会企业，致力于发展可持续艺术文化项目，为青年提供社会实践活动平台，在促进美育教育发展的同时，发掘富有创新性的方式，并以此来聚焦社会现象。</text>
+    </view>
+  </view>
+
+  <view class="join">
+    <text class="joinText">加入我们！</text>
+    <button class="joinBtn" bindtap="jumptoWeb">
+      <image class="btnImg" mode="widthFix" src="icon/arrow.png"></image>
+    </button>
+  </view>
+
+  <view class="credits">
+    <view class="box">
+      <text>龠力小助手微信号</text>
+      <image class="qr-img" mode="widthFix" src="icon/qr.png"></image>
+    </view>
+
+    <view class="box">
+      <text class="team2">小程序开发：</text>
+      <text class="team3">刘正垚/Peter Lau</text>
+      <text class="team3">李昱涵/Jerry Li</text>
+      <text class="team2">页面设计：</text>
+      <text class="team3">张嘉鑫/Jason Cheung</text>
+      <text class="team2">项目PM：</text>
+      <text class="team3">刘珂均/Cici Liu</text>
+    </view>
+  </view>
+
+  <text class="disclaimer">感谢浏览龠力「无轮之廓展览」小程序。此小程序不得被用于非小程序开发者或是深圳龠力文化传播有限公司授权的任何用途。</text>
+
+  <official-account class = "account"></official-account>
+
+</view>
+

@@ -1,0 +1,178 @@
+page {
+  height: 2200rpx;
+}
+
+.aboutBg {
+  position: absolute;
+  width: 650rpx;
+  height: 440rpx;
+}
+
+.aboutTitle {
+  position: absolute;
+  width: 250rpx;
+  font-size: 68rpx;
+  font-weight: 450;
+}
+
+.aboutBody {
+  position: absolute;
+  width: 600rpx;
+  text-indent: 200rpx;
+  line-height: 45rpx;
+  font-size: 32rpx;
+  font-weight: 400;
+}
+
+.aboutBody2 {
+  position: absolute;
+  width: 600rpx;
+  font-weight: 450;
+  font-size: 33rpx;
+  font-style: italic;
+  text-align: center;
+}
+
+.middle{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 450rpx;
+}
+
+.line{
+  display: flex;
+  width: 80%;
+  margin-top: 70rpx;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2rpx; 
+  background-color:#87ceeb; 
+}
+
+.middleTxt{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20rpx;
+}
+
+.textbox{
+  display: flex;
+  flex-direction: column;
+  width: 300rpx;
+  height: 300rpx;
+  align-items: center;
+  background-color: rgb(230,230,230);
+  border-radius: 20rpx;
+  margin: 10rpx;
+}
+
+.textBoxStat{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
+  width: 250rpx;
+  height: 250rpx;
+  font-size: 70rpx;
+  font-weight: 450;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10rpx;
+  margin-top: -20rpx;
+}
+
+.textBoxStat2{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
+  width: 250rpx;
+  height: 250rpx;
+  font-size: 78rpx;
+  font-weight: 450;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10rpx;
+  margin-top: -20rpx;
+}
+
+.textBoxWord{
+  margin:auto;
+  font-size: 33rpx;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60rpx;
+}
+
+.mythTitle {
+  position: absolute;
+  width: 400rpx;
+  height: 80rpx;
+  border-radius: 20rpx;
+  font-size: 56rpx;
+  font-weight: 300;
+}
+
+.circleIndex {
+  display: flex;
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(230,230,230);
+  border-radius: 100rpx;
+  font-size: 38rpx;
+  font-weight: 400;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.myth {
+  position: absolute;
+  width: 550rpx;
+  font-weight: 400;
+  color: rgb(200, 40, 40);
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 36rpx;
+  font-weight: 550;
+  text-decoration-line: underline;
+}
+
+.truth {
+  position: absolute;
+  width: 530rpx;
+  font-weight: 400;
+  color: rgb(60, 110, 160);
+  font-size: 32rpx;
+}
+
+.disclaimer{
+  display: flex;
+  width: 90%;
+  font-size: 24rpx;
+  text-align: left;
+  color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 980rpx
+}
+
+.disclaimer2{
+  display: flex;
+  width: 90%;
+  font-size: 20rpx;
+  text-align: left;
+  color: rgb(150, 150, 150);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rpx
+}

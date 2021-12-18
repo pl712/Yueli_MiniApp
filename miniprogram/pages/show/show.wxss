@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+page {
+  background: rgb(255,255,255);
+  width: 750rpx;
+  height: 2100rpx;
+}
+
+.topBox {   /* 含生有味背景栏 */
+  position: absolute; 
+  width: 540rpx; 
+  height: 610rpx; 
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2rpx;
+  border-radius: 10rpx;
+  left: 104rpx;
+  top: 120rpx;
+}
+
+.topDeco {     /* 顶部装饰 */
+  position: absolute; 
+  background-color: #2d2570;
+  right: -105rpx;
+  z-index: -1;
+  width: 200rpx;
+  height: 170rpx;
+  display: block;
+  box-sizing: border-box;
+  top: 62rpx;
+}
+
+.topPhoto {   /*含生有味海报 */
+  position: absolute;
+  z-index: 1;
+  left: 295rpx;
+  top: -60rpx; 
+  width: 330rpx;
+  height: 180rpx;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* 含生有味标题 */
+.topText {
+  position: absolute;
+  left: -5rpx;
+  top: -12rpx;
+  font-family: serif; 
+  font-size: 52rpx;
+  font-weight: lighter;
+}
+
+/* 含生有味文字 */
+.topBody {
+  position: absolute;
+  left: 40rpx;
+  bottom: 40rpx;
+  width: 468rpx;
+  display: block;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: gray;
+  font-size: 32rpx
+}
+
+/* 含生有味按钮 */
+.topMore {
+  border-radius: 100rpx;
+  position: absolute;
+  left: 440rpx;
+  top: 646rpx;
+  height: 100rpx;
+  background-color: #2d2570
+}
+
+/* 含生有味箭头 */
+.topArrow {
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 474rpx;
+  top: 682rpx
+}
+
+
+.bottomBox {    /* 凯纳的梦文字背景 */
+  position: absolute; 
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2rpx;
+  border-radius: 10rpx;
+  left: 104rpx;
+  top: 1080rpx;
+  width: 540rpx;
+  height: 750rpx;
+}
+
+.bottomDeco {       /* 凯纳的梦色块 */
+  position: absolute;
+  background: rgb(210,210,210); 
+  left: 0rpx;
+  z-index: -1;
+  left: -105rpx;
+  top: -150rpx;
+  width: 240rpx;
+  height: 300rpx;
+  display: block;
+  box-sizing: border-box;
+}
+
+.bottomPhoto {   /*凯纳的梦海报*/
+  position: absolute;
+  z-index: 1;
+  left: 36rpx;
+  top: -264rpx;
+  width: 266rpx;
+  height: 366rpx;
+}
+
+/* 日新龠艺标题 */
+.bottomText {   
+  writing-mode: vertical-rl;
+  position: absolute;
+  right: -50rpx;
+  top: 150rpx;
+  font-family: serif;
+  font-size: 52rpx;
+  font-weight: lighter;
+  width: 148rpx;
+  z-index: 1;
+}
+
+/* 日新龠艺文字 */
+.bottomBody {
+  position: absolute;
+  left: 40rpx;
+  top: 100rpx;
+  bottom: 40rpx;
+  width: 400rpx;
+  font-family: sans-serif;
+  color: gray;
+  z-index: 1;
+  font-size: 32rpx;
+}
+
+/* 底部按钮 */
+.bottomMore {
+  border-radius: 100rpx;
+  position: absolute;
+  left: 434rpx;
+  top: 812rpx;
+  height: 100rpx;
+  background-color: gray;
+}
+
+/* 底部箭头 */
+.bottomArrow {
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 468rpx;
+  top: 850rpx;
+}
+
+/* 注册按钮 */
+.register{
+  z-index: 1;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2rpx;
+  border-radius: 40rpx;
+  border-radius: 100rpx;
+  position: relative;
+  left: 0rpx;
+  top: 820rpx;
+  height: 80rpx;
+  box-shadow: 2px 2px 2px 2px gray;
+  vertical-align: middle;
+  display: table-cell;
+}

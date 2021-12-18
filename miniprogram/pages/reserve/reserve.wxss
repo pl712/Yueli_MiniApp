@@ -1,0 +1,203 @@
+page {
+  background: #f0f0f0;
+  height: auto;
+}
+
+.dialog{
+  display: flex;
+}
+
+.titleText{
+  color: black;
+  font-size: 30rpx;
+}
+
+.line1{
+  grid-gap: 10rpx;
+}
+
+.boxText{
+  color: gray;
+  font-size: 30rpx;
+}
+
+.boxLink{
+  color: blue;
+  font-size: 30rpx;
+  text-decoration: underline;
+}
+
+.line2{
+  color: rgb(165, 164, 164);
+  font-size: 27rpx;
+}
+
+.divLine{
+  background: #cac8c8;
+  width: 100%;
+  height: 3rpx;
+  margin-top: 15rpx;
+  margin-bottom: 30rpx;
+ }
+
+.reserve{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.topBlue{
+  position: absolute;
+  margin-top: 0;
+  right: 0;
+  width: 15vh;
+  height: 15vh;
+  background-color: #2e3192;
+  border-bottom-left-radius: 15rpx;
+}
+
+.topRed{
+  position: absolute;
+  margin-top: 15vh;
+  right: 0;
+  width: 15vh;
+  height: 15vh;
+  background-color: rgb(201, 55, 55);
+  border-bottom-left-radius: 15rpx;
+}
+
+.topYellow{
+  position: absolute;
+  margin-top: 30vh;
+  right: 0;
+  width: 15vh;
+  height: 15vh;
+  background-color: rgb(209, 209, 61);
+  border-bottom-left-radius: 15rpx;
+}
+
+.topBox{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vh;
+  margin-left: 2%;
+  width: 60%;
+  height: auto;
+  min-height: 50vh;
+  border-radius: 10rpx;
+  background-color: #4d4d4d;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/* 在预约画展之前 */
+.text1{ 
+  padding-top: 10%;
+  color: #cccccc;
+  display: flex;
+  font-size: 38rpx;
+  display: block;
+  width: 90%;
+  font-weight: 300;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 在有无限可能 */
+.text2{
+  padding-top: 10%;
+  color: #cccccc;
+  display: flex;
+  font-size: 38rpx;
+  font-weight: 300;
+  display: block;
+  width: 90%;
+  margin-top: -5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 你内心深处 - container */
+.middleBox{
+  margin-top: 5%;
+  position: relative;
+  display: flex;
+  width: 150%;
+  margin-left: 10%;
+  height: 10vh;
+  border-radius: 10rpx;
+  background-color: #cccccc;
+  box-sizing: border-box;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 你内心深处最渴望 */
+.text3{
+  color: #1b1450;
+  display: flex;
+  font-size: 33rpx;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* 用户textbox - container */
+.textBox{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  position: relative;
+  display: flex;
+  width: 150%;
+  margin-left: 10%;
+  height: auto;
+  min-height: 10vh;
+  border-radius: 10rpx;
+  background-color: #cccccc;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+/* 用户input box */
+.textInput{
+  display: flex;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10rpx;
+}
+
+/* form宽度 */
+.form{
+  width: 100%;
+}
+
+.button{
+  position: absolute;
+  top: 200rpx;
+  margin-left: 22.5%;
+  width: 300rpx;
+  font-size: 36rpx;
+  height: auto;
+  border-radius: 100rpx;
+  border: 0.5px solid black;
+  box-shadow: 2px 2px 2px 2px #2e3192;
+}
+
+.button2{
+  position: relative;
+  top: 300rpx;
+  width: 300rpx;
+  font-size: 36rpx;
+  height: auto;
+  border-radius: 100rpx;
+  border: 0.5px solid black;
+  box-shadow: 2px 2px 2px 2px #2e3192;
+}

@@ -1,0 +1,57 @@
+<!--miniprogram/pages/show-rixin/show-rixin.wxml-->
+<view class = "topImgBg" style="position: absolute; left: 73rpx; top: 83rpx; width: 600rpx; height: 200rpx; display: block; box-sizing: border-box">
+  <text class = "miroIntroTitle" style="position: absolute; left: 57rpx; top: -29rpx">
+    大 师
+    介 绍
+  </text>
+  <image class = "topPoster" mode="widthFix" style="position: absolute; left: 236rpx; top: 0rpx; width: 366rpx; display: block; box-sizing: border-box; height: 267rpx" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-RiXin - Photo/Miro.png">
+  </image>
+</view>
+
+<view class = "miroIntroBg" style="position: absolute; left: 74rpx; top: 356rpx">
+  <text class = "miroIntroText" style="position: absolute; left: 38rpx; top: -16rpx">
+    胡安·米罗，西班牙画家、雕塑家，超现实主义的代表人物，和毕加索、达利齐名的20世纪超现实主义绘画大师之一。
+    他的艺术代表了超现实主义的另一种风格，来源于记忆和梦境，带有怪异和幽默的特征，包括扭曲的形体和古怪的几何结构。他天真孩童般的画风深受众人喜爱，他的创作生涯始终只向儿童靠齐。
+  </text>
+</view>
+
+<view class = "wulunBg" style="position: absolute; left: 74rpx; top: 786rpx">
+  <image class = "wulunPoster" style="position: absolute; left: 44rpx; top: 134rpx" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/mainPoster.jpg">
+  </image>
+  <text class = "wulunTitle" style="position: absolute; left: 44rpx; top: -44rpx">
+    「无轮之廓」公益展
+  </text>
+  <text class = "wulunText" style="position: absolute; left: 308rpx; top: 88rpx">
+    「轮廓」，即事物的外部线条。无轮之廓，义为消解外在轮廓，一如超现实画作中梦幻的变形，在无边界的潜意识与梦境中，打捞起深层的、真实的自我。
+  </text>
+</view>
+
+<view class = "moduleBg" style="position: absolute; left: 354rpx; top: 1416rpx">
+  <text class = "moduleTitle" style="position: absolute; left: -124rpx; top: -153rpx">
+    展览三大板块
+  </text>
+  <text class = "kaiNaTitle" style="position: absolute; left: 4rpx; top: -19rpx">
+    「凯纳的梦」
+  </text>
+  <text class = "kaiNaText" style="position: absolute; left: 20rpx; top: 42rpx">
+    “经典凯纳”自闭症以凯纳·里奥命名，是儿童发育智障中最为严重的疾病之一。他们封闭、矛盾，与外界冲突不断，如同一块多余的拼图，游离于大画面之外。但我们不该忘记——我们本就是一个画面。
+  </text>
+  <text class = "ziShenTitle" style="position: absolute; left: 5rpx; top: 474rpx">
+    「自深深处」
+  </text>
+  <text class = "ziShenText" style="position: absolute; left: 20rpx; top: 548rpx">
+    我最浅的痛苦，也是从我最深的内心，从那潜意识与梦境中而来。米罗以童稚的笔触创作，但从不逃避于凝视内心的深渊，而将他们诉诸笔端，天马行空，百无禁忌。
+  </text>
+  <text class = "liuDongTitle" style="position: absolute; left: 5rpx; top: 910rpx">
+    「流动星宿」
+  </text>
+  <text class = "liuDongText" style="position: absolute; left: 20rpx; top: 984rpx">
+    超现实主义期待一种无理性的艺术，即线条和颜色自由的流淌在画家的笔尖，自动产生一种由梦境的联想和任意的词语游戏组成的诗歌。
+  </text>
+  <image class = "kaiNa" style="position: absolute; left: -282rpx; top: 113rpx" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-RiXin - Photo/KaiNa.jpeg">
+  </image>
+  <image class = "ziShen" style="position: absolute; left: -282rpx; top: 578rpx" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-RiXin - Photo/ZiShen.jpeg">
+  </image>
+  <image class = "liuDong" style="position: absolute; left: -282rpx; top: 984rpx" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Show-RiXin - Photo/LiuDong.jpeg">
+  </image>
+</view>

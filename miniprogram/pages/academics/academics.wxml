@@ -1,0 +1,60 @@
+<view class="academics">
+  <view class="top">
+    <view class="topLeft">
+      <text class="name1">「龠力」</text>
+      <text class="name2">学 术 论 坛</text>
+    </view>
+    <view class="topRight">
+      <view class="blueBox"></view>
+      <swiper class = "academicAlbum" indicator-dots="true">
+          <swiper-item>
+            <image mode="widthFix" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Academic-Photo/论坛照片1.jpg" mode = "widthFix"></image>
+          </swiper-item>
+          <swiper-item>
+            <image mode="widthFix" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Academic-Photo/论坛照片2.jpg" mode = "widthFix"></image>
+          </swiper-item>
+          <swiper-item>
+            <image mode="widthFix" src = "cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/Academic-Photo/论坛照片3.jpg" mode = "widthFix"></image>
+          </swiper-item>
+        </swiper> 
+    </view>
+  </view>
+
+  <view class="middle">
+    <view class="academicWords">
+        学术论坛是「日新龠艺」文化节中一个为感兴趣人士学习、品鉴相关艺术和其背后的知识的机会 。此论坛中设有不同主题的讲座与分享，可免费预约参加。
+    </view>
+  </view>
+
+  <view class="middle2">
+    <view class="academicListL">
+        本 期
+    </view>
+    <view class="academicListL2">
+        论 坛 内 容
+    </view>
+    <view class="academicListR">
+      <view class="academicListRtxt">· 特邀西班牙伯爵策展讲坛</view>
+      <view class="academicListRtxt">· 赞助商品牌故事分享会</view>
+      <view class="academicListRtxt">· 特邀学术代表艺术讲座</view>
+    </view>
+  </view>
+
+  <view class="bottom">
+    <view class="bottomTxt1">
+      上述内容即将开放预约 - 敬请期待！
+    </view>
+    <view class="line"></view>
+    <view class="nxtPage">
+      <view class="nLeft">
+        <view class="txt2">在此之前，请先问自已一个问题：</view>
+        <view class="txt3">自闭症到底是什么？</view>
+      </view>
+      <view class="nRight">
+        <button class="button" bindtap="jumpToAutism">
+          <image class="btnImg" mode="widthFix" src="icon/arrow2.png"></image>
+        </button>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,45 @@
+<mp-dialog class="dialog" mask="true" mask-closable='{{false}}' show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+  <view class="titleText">用户隐私保护说明</view>
+  <view class="divLine"></view>
+
+  <view class="line1">
+    <text class="boxText">请阅读并同意 </text>
+    <text class="boxLink" bindtap="tapHyperLink"> 用户隐私协议</text>
+  </view>
+</mp-dialog>
+
+<view class="reserve"> 
+  <view class="topBlue"></view>
+  <!-- <view class="topRed"></view>
+  <view class="topYellow"></view> -->
+
+  <view class="topBox">
+    <text class="text1" >在预约画展之前，请先留下您的寄语供我们放在展览区投放。谢谢！</text>
+    <text class="text2" >在有无限可能的梦境里，你来构筑的梦境会是什么样子的?</text>
+    <view class="middleBox" style="opacity: 80%">
+      <text class="text3" >你内心深处最渴望的梦境是什么样子的呢?</text>
+    </view> 
+    <view class="textBox">
+      <form class="form" bindsubmit="formSubmit" style="opacity: 80%">
+          <textarea name="userInput" class="textInput" placeholder="在此输入（最少4个字，最多50字）" auto-height max-length="50" type="text" value="{{value}}" />
+          <button formType="submit" open-type="getPhoneNumber" class="button" bindgetphonenumber="getPhoneNumber"  style="position: absolute; left: 0rpx; top: 255rpx">确定并预约</button>
+          <!-- <block wx:if="{{!hasUserInfo}}">
+            <button class="button2" formType="submit" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"  style="position: relative; left: -37rpx; top: 263rpx"> 获取头像昵称 </button>
+          </block> -->
+        </form>
+    </view>
+  </view>  
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+

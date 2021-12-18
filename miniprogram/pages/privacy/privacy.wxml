@@ -1,0 +1,7 @@
+<image class="img" mode="widthFix" bindtap="clickImg" src="cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/privacy.jpeg"></image>
+<view class="txt">（点击观看大图）</view>
+<view class="buttons">
+  <button class="returnButton" bindtap="jumpToReserve">已阅，返回预约</button>
+  <button class="returnButton" bindtap="jumpToShow">不同意隐私政策</button>
+</view>
+

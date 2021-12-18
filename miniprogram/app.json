@@ -1,0 +1,61 @@
+{
+  "usingComponents": {
+  },
+  
+  "pages": [
+    "pages/home/home",
+    "pages/reserve/reserve",
+    "pages/privacy/privacy",
+
+    "pages/show/show",
+    "pages/show-old/show-old",
+    "pages/show-new/show-new",
+
+    "pages/academics/academics",
+    "pages/acad-autism/acad-autism",
+
+    "pages/about/about",
+    "pages/webView/webView"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D9D9D9",
+    "navigationBarTitleText": "「日新龠艺」文化节",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9C9C9C",
+    "selectedColor": "#1B1464",
+    "backgroundColor": "#ede8e8",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "icons/1-3.png",
+      "selectedIconPath": "icons/1-2.png"
+    }
+    ,{
+      "pagePath": "pages/show/show",
+      "text": "活动",
+      "iconPath": "icons/2-1.png",
+      "selectedIconPath": "icons/2-2.png"
+    }
+    ,{
+      "pagePath": "pages/academics/academics",
+      "text": "学术",
+      "iconPath": "icons/3-1.png",
+      "selectedIconPath": "icons/3-2.png"
+    }
+    ,{
+      "pagePath": "pages/about/about",
+      "text": "关于我们",
+      "iconPath": "icons/4-1.png",
+      "selectedIconPath": "icons/4-2.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  }
+}

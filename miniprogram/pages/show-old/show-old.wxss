@@ -1,0 +1,99 @@
+/* miniprogram/pages/show-hansheng/show-hansheng.wxss */
+
+page {
+  background: #f0f0f0;
+  width: 750rpx;
+  height: 2980rpx;
+}
+
+.showPhoto {
+  position: absolute;
+  align-self: center;
+  top: 45rpx;
+  width: 664rpx;
+  height: 397rpx;
+  border-radius: 30rpx;
+}
+
+.bgBlock {
+  position: absolute;
+  border-radius: 30rpx;
+  width: 550rpx;
+  height: 1810rpx;
+  background-color: rgb(220,220,220);
+}
+
+.titleText {
+  position: absolute;
+  font-size: 64rpx;
+  font-weight: 300;
+}
+
+.JuLi {
+  position: absolute;
+  width: 287rpx;
+}
+
+.JuLiTitle {
+  position: absolute;
+  font-size: 34rpx;
+  font-weight: 450;
+  color: rgb(70, 165, 125);
+}
+
+.JuLiText {
+  position: absolute;
+  width: 350rpx;
+  font-size: 28rpx;
+  font-weight: 300;
+}
+
+.AnWen {
+  position: absolute;
+  width: 287rpx;
+}
+
+.AnWenTitle {
+  position: absolute;
+  font-size: 34rpx;
+  font-weight: 450;
+  color: rgb(180,120,120);
+}
+
+.AnWenText {
+  position: absolute;
+  width: 350rpx;
+  font-size: 28rpx;
+  font-weight: 300;
+}
+
+.ZhongGui {
+  position: absolute;
+  width: 267rpx;
+}
+
+.ZhongGuiTitle {
+  position: absolute;
+  font-size: 34rpx;
+  font-weight: 450;
+  color: rgb(180, 130, 65);
+}
+
+.ZhongGuiText {
+  position: absolute;
+  width: 345rpx;
+  font-size: 28rpx;
+  font-weight: 300;
+}
+
+.activityAlbum {
+  position: absolute;
+  width: 600rpx;
+  height:400rpx;
+}
+
+.albumTitle {
+  position: absolute;
+  font-size: 64rpx;
+  font-weight: 300;
+}

@@ -1,0 +1,74 @@
+<view class = "aboutBg" style="position: absolute; left: 50rpx; top: 66rpx">
+  <view class = "aboutTitle" style="position: absolute; left: 22rpx; top: -28rpx">
+    自闭症
+  </view>
+  <view class = "aboutBody" style="position: absolute; left: 26rpx; top: 18rpx">
+    ，又称孤独症，是一种神经系统相关的发育障碍，其症状主要表现为社交 、沟通障碍等。由于对其环境不可控的过度感知，许多人会通过减少社交的形式从而避免被所处环境中声音，光源，气味等造成刺激反应。
+  </view>
+  <text class = "aboutBody2" style="position: absolute; left: 15rpx; top: 260rpx">
+    自闭症是影响儿童健康最严重的问题之一
+  </text>
+</view>
+
+<view class="middle">
+  <view class="middleTxt">
+    <view class="textbox">
+      <view class="textBoxStat">
+        1000 万
+      </view>
+      <view class="textBoxWord">
+        中国自闭症人口
+      </view> 
+    </view>
+
+    <view class="textbox">
+      <view class="textBoxStat2"> 
+      <!-- 字体大点，其他没变 -->
+        80 %
+      </view>
+      <view class="textBoxWord">
+        群众缺乏相关知识
+      </view> 
+    </view>
+  </view>
+
+  <view class="line"></view>
+</view>
+
+<view class = "mythTitle" style="position: absolute; left: 78rpx; top: 903rpx">
+    常见误解
+  
+  <view class = "circleIndex" style="position: absolute; left: -20rpx; top: 110rpx">
+    1
+    <text class = "myth" style="position: absolute; left: 130rpx; top: -26rpx">
+      自闭症等于抑郁症、强迫症
+    </text>
+    <text class = "truth" style="position: absolute; left: 130rpx; top: 66rpx">
+      两者并不相同，自闭症根本源于感知障碍所造成的社交能力缺陷，而抑郁症和强迫症则源于心理障碍。
+    </text>
+  </view>
+
+  <view class = "circleIndex" style="position: absolute; left: -20rpx; top: 382rpx">
+    2
+    <text class = "myth" style="position: absolute; left: 124rpx; top: -26rpx">
+      自闭症儿童很有攻击性
+    </text>
+    <text class = "truth" style="position: absolute; left: 124rpx; top: 74rpx">
+      看似攻击性行为并无恶意，只是他们不知道如何更好的交流从而造成的错误沟通方式。
+    </text>
+  </view>
+
+  <view class = "circleIndex" style="position: absolute; left: -20rpx; top: 664rpx">
+    3
+    <text class = "myth" style="position: absolute; left: 127rpx; top: -26rpx">
+      自闭症儿童是傻子
+    </text>
+    <text class = "truth" style="position: absolute; left: 127rpx; top: 66rpx">
+      许多自闭症人群的感知障碍让他们无法和常人处于“同一个频道”，从而让人们看来以为是”智力缺陷“
+    </text>
+  </view>
+</view>
+
+
+<text class="disclaimer">上述所有数据、内容仅供参考，且不得被作为医学、诊断类建议。龠力及小程序制作团队不完全保证以上内容的医学严谨性。</text>
+<text class="disclaimer2">上述内容源于互联网内以下网站、文献：https://wenku.baidu.com/view/1c72f82efb0f76c66137ee06 eff9aef8951e48d5.html; https://www.cdc.gov/ncbddd/autism/facts.html; https://www.spectrumnews.org/opinion/guest-blog-understanding-aggression-in-autism/; https://www.autismspeaks.org/autism-statistics-asd;</text>

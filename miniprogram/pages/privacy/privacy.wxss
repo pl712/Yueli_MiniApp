@@ -1,0 +1,44 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  column-gap: 40rpx;
+  margin-top: 100rpx
+}
+
+.returnButton{
+  background-color: rgb(204, 204, 204);
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(87, 87, 87);
+  font-size: 36rpx;
+}
+
+.img{
+  display: flex;
+  width: 95%;
+  margin-top: 100rpx;
+  margin-bottom: 20rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txt{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+page {
+  background: #f0f0f0;
+}

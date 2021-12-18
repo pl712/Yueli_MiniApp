@@ -1,0 +1,17 @@
+ 
+<view class="home">
+    <image class="poster" mode="widthFix" src="cloud://dev-cloud-1gwh9jvwac1ba872.6465-dev-cloud-1gwh9jvwac1ba872-1306078339/mainPoster.jpg" />
+    <!-- <text class="textTop2">「无轮之廓」胡安·米罗 艺术首展</text> -->
+
+  <view class="bottom">
+    <text class="textBottom1" style="width: 750rpx; height: 205rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">龠力</text>
+    <text class="textBottom2" style="width: 750rpx; height: 120rpx; display: flex; box-sizing: border-box; left: NaNrpx; top: NaNrpx">CORIOLIS</text>
+  </view>
+
+  <button class="button" bindtap="jumpToReserve">
+    <!-- <image class="buttonImg" mode="widthFix" src="icons/home-reserve.png"></image> -->
+    <image class="btnImage" mode = "widthFix" src="icons/register.jpg" style="position: absolute; left: -15rpx; top: -10rpx"></image>
+  </button>
+
+</view> 
+
